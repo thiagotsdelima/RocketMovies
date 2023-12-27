@@ -1,26 +1,36 @@
-import styled from 'styled-components';
+import { styled } from "styled-components"
+
 
 export const Container = styled.div`
-width: 100%;
-display: flex;
-align-items: center;
-background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-color: ${({ theme }) => theme.COLORS.GRAY_100};
-margin-bottom: 8px;
-border-radius: 10px;
-> input {
-  height: 56px;
-  width: 100%;
-  padding: 12px;
-  color: ${({ theme }) => theme.COLORS.WHITE};
-  background: transparent;
-  border: 0;
+  width: 630px;
 
-  &:placeholder {
-    color: ${({ theme }) => theme.COLORS.GRAY_300};
+  background: ${({ theme }) => theme.COLORS.MID_GRAY};
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 10px;
+
+  > input {
+    height: 56px;
+    width: 100%;
+
+    padding: 0 12px;
+    border: 0;
+
+    color: ${({ theme }) => theme.COLORS.WHITE};
+    background: transparent;
+
+    &:placeholder {
+      font-size: 14px;
+      font-weight: 400;
+      color: ${({ theme }) => theme.COLORS.FONT_DARK_GRAY};
+    }
   }
-}
-svg {
-    margin-left: 16px;
+
+  > svg {
+    margin-left: 20px;
+    background: transparent;
+    color: ${({ theme }) => theme.COLORS.FONT_DARK_GRAY};
   }
-`;
+`

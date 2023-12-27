@@ -1,12 +1,14 @@
-import styled from 'styled-components';
+import { styled } from "styled-components"
 
-export const Container = styled.span`
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 12px;
-padding: 5px 14px;
-border-radius: 5px;
-margin-right: 6px;
-background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
-color: ${({ theme }) => theme.COLORS.GRAY_300};
-`;
+
+export const Container = styled.div`
+  font-size: 12px;
+  font-weight: 400;
+  color: ${({ theme }) => theme.COLORS.WHITE};
+
+  background: ${({ theme }) => theme.COLORS.LIGHT_GRAY};
+  padding: 5px 16px;
+  margin-right: 8px;
+
+  border-radius: 8px;
+`

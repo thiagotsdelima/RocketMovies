@@ -1,72 +1,81 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
+
   display: grid;
-  grid-template-rows: 105px auto;
+  grid-template-columns: auto;
+  grid-template-rows: 116px 133px auto;
   grid-template-areas:
-  "header"
-  "content";
+    "header"
+    "title"
+    "content";
+  
+  background: ${({ theme }) => theme.COLORS.DARK_GRAY};
+`
 
-  > menu {
-    
-    padding: 40px 100px 40px;
-  }
-  .line {
-  margin-right: 84px;
-  margin-top: 238px;
-  right: 0;
-  border-left: 8px solid ${({ theme }) => theme.COLORS.PINK}; 
-  height: 96px; 
-  position: absolute;
-  z-index: 1;
-  border-radius: 8px;
+export const Title = styled.div`
+  grid-area: title;
+
+  padding: 0 123px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > h1 {
+    font-weight: 400;
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
 
-`;
+  #buttons {
+    width: 210px;
+    padding: 0 28px;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    svg {
+      transform: scale(1.1);
+      color: ${({ theme }) => theme.COLORS.DARK_GRAY};
+    }
+  }
+`
+
 
 export const Content = styled.div`
-display: flex;
-justify-content: end;
+  grid-area: content;
 
- Button {
-    margin-right: 90px;
-    margin-top: 50px;
-    padding-left: 30px;
-    width: 200px;
-    height: 48px;
-    border-radius: 5rpx;
-    font-size: 16px;
-    line-height: 24px;
-    color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-}
+  padding: 0 8px 0 123px;
+  margin-right: 123px;
+  margin-bottom: 60px;
+  overflow-y: auto;
 
-> Section {
-  
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  left: 100px;
-  top: 166px;
-  
- 
-}
-> svg {
-    position: absolute;
-    margin-right: 250px;
-    margin-top: 66px;
-    z-index: 1;
-    color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-    
+  &::-webkit-scrollbar {
+    width: 8px;
+    border: none;
+    outline: none;
   }
 
-`;
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #FF859B;
+    min-height: 70px;
 
-export const Menu = styled.div`
-    grid-area: Menu;
-    section {
-      padding: 40px 100px 40px;
-    }
-`;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #FF859B;
+  }
+`

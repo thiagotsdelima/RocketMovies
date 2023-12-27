@@ -1,49 +1,76 @@
-import styled from 'styled-components';
-import backgroundImg from '../../assets/background.svg'
+import { styled } from "styled-components"
+import backgroundImg from "../../assets/background.png"
+
 
 export const Container = styled.div`
-height: 100vh;
-display: flex;
-align-items: stretch;
+  height: 100vh;
 
-`;
+  display: flex;
+  align-items: stretch;
+`
+
 
 export const Form = styled.form`
-padding: 100px 136px;
+  padding: 0 140px;
 
-> h1 {
-  
-  font-size: 48px;
-  font-weight: 700;
-  color: ${({ theme }) => theme.COLORS.PINK};
-}
-> h2 {
-  color: ${({ theme }) => theme.COLORS.WHITE};
-  font-weight: 500;
-  font-size: 24px;
-  margin: 48px 0;
-  
-}
-> p {
-  font-size: 14px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.COLORS.GRAY_100};
-}
-button {
-  margin-bottom: 42px;
-}
-> a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  color: ${({ theme }) => theme.COLORS.PINK};
-}
-`;
+  align-items: start;
+
+  > h1 {
+    font-size: 48px;
+    color: ${({ theme }) => theme.COLORS.PINK};
+  }
+
+  > h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0;
+  }
+
+  > p {
+    font-size: 14px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.COLORS.FONT_MID_GRAY};
+  }
+
+  > #inputs {
+    width: 340px;
+    margin-bottom: 9px;
+  }
+
+  > #inputs:nth-child(5) {
+    margin-bottom: 0;
+  }
+
+  #pink-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 24px;
+  }
+ 
+  a {
+    align-self: center;
+  }
+
+  #button-text {
+    margin-top: 42px;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.COLORS.PINK};
+  }
+`
+
 
 export const Background = styled.div`
-flex: 1;
-background: url(${backgroundImg}) no-repeat center center;
-background-size: cover;
-`;
+  width: 800px;
 
+  flex: 1;    // o campo ocupa todo o espaço disponível
+
+  background: url(${backgroundImg}) no-repeat center center;
+  background-size: cover;
+`

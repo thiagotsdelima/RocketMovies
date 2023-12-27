@@ -1,11 +1,10 @@
-import styled from 'styled-components';
+import { styled } from "styled-components"
+
 
 export const Container = styled.button`
   background: none;
-  color: ${({ theme, $isActive }) =>
-    $isActive ? theme.COLORS.PINK : theme.COLORS.GRAY_100};
+  color: ${({ theme, isActive }) => isActive ? theme.COLORS.ORANGE : theme.COLORS.PINK};
+
   border: none;
   font-size: 16px;
-  font-weight: 400;
-`;
-
+`

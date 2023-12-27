@@ -1,26 +1,29 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components"
+
 
 export default createGlobalStyle`
-* {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
+  body {
+    background: ${({ theme }) => theme.COLORS.DARK_GRAY};
+    color: ${({ theme }) => theme.COLORS.WHITE};
 
-body {
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-    color: ${({ theme }) => theme.COLORS.WHITE_BG};
-}
+    -webkit-font-smoothing: antialiased;
+     
+  }
+  
+  body, input, button, textarea {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    outline: none;
+  }
 
-body, button, html, input, textarea {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  outline: none;
-}
-a {
+  a {
     text-decoration: none;
   }
 
@@ -30,6 +33,6 @@ a {
   }
 
   button:hover, a:hover {
-    filter: brightness(0.9);
+    filter: brightness(0.8);
   }
-`;
+`

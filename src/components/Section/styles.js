@@ -1,15 +1,14 @@
-import styled from 'styled-components';
+import { styled } from "styled-components"
+
 
 export const Container = styled.section`
+  margin: 40px 0;
 
   > h2 {
-   
-    padding-bottom: 16px;
-   
-    color: ${({ theme }) => theme.COLORS.WHITE_BG};
-    font-size: 36px;
-    line-height: 47px;
-    font-weight: 500;
-  }
-`;
+    margin-bottom: 24px;
 
+    font-size: 20px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.COLORS.GOLD};
+  }
+`
