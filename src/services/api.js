@@ -5,5 +5,5 @@ import axios from "axios"
 
 export const api = axios.create({
 
-  baseURL: ''
+  baseURL: 'https://rocketmv.onrender.com'
 })
