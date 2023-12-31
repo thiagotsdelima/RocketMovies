@@ -1,4 +1,4 @@
-import { useAuth } from "../../hooks/auth"
+import { useAuth } from "../../../src/routes/auth.routes"
 
 import { useState } from "react"
 
