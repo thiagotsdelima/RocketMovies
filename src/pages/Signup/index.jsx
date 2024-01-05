@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { api } from "../../Services/api"
+import { api } from "../../services/api"
 
 import { FiUser, FiMail, FiLock, FiArrowLeft } from "react-icons/fi"
 import { Link, useNavigate } from "react-router-dom"

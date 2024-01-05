@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
-import { api } from "../../Services/api"
+import { api } from "../../services/api"
 
 import { FiArrowLeft } from "react-icons/fi"
 

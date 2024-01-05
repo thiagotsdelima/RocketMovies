@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-import { api } from "../../Services/api"
+import { api } from "../../services/api"
 
 import { Container, Title, Content } from "./styles"
 

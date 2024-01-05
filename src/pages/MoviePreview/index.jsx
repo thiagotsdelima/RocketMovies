@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from "react-router-dom"
 
 import { useAuth } from '../../hooks/auth'
-import { api } from '../../Services/api'
+import { api } from '../../services/api'
 
 import avatarPlaceholder from "../../Assets/avatar_placeholder.svg"
 

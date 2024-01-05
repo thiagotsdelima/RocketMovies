@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from '../../hooks/auth';
 
-import { api } from "../../Services/api";
+import { api } from "../../services/api";
 
 import { ButtonText } from  "../ButtonText";
 import { Input } from  "../Input";
