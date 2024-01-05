@@ -1,4 +1,4 @@
-import { api } from "../services/api";
+import { api } from "../Services/api";
 
 import { createContext, useContext, useState, useEffect } from "react"
 

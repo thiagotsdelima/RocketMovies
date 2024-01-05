@@ -3,15 +3,15 @@ import { Link } from "react-router-dom"
 
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import { useAuth } from "../../hooks/auth"
+import { useAuth } from "../../Hooks/auth"
 
-import avatarPlaceholder from "../../assets/avatar_placeholder.svg"
-import { api } from "../../services/api"
+import avatarPlaceholder from "../../Assets/avatar_placeholder.svg"
+import { api } from "../../Services/api"
 
 import { Container, Form, Avatar } from "./styles"
-import { Input } from "../../components/Input"
-import { Button } from "../../components/Button"
-import { ButtonText } from "../../components/ButtonText"
+import { Input } from "../../Components/Input"
+import { Button } from "../../Components/Button"
+import { ButtonText } from "../../Components/ButtonText"
 
 
 

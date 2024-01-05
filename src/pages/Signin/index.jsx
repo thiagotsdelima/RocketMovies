@@ -1,4 +1,4 @@
-import { useAuth } from "../../hooks/auth"
+import { useAuth } from "../../Hooks/auth"
 
 import { useState } from "react"
 
@@ -7,9 +7,9 @@ import { Link } from "react-router-dom"
 
 import { Container, Form, Background } from "./styles"
 
-import { Input } from "../../components/Input"
-import { Button } from "../../components/Button"
-import { ButtonText } from "../../components/ButtonText"
+import { Input } from "../../Components/Input"
+import { Button } from "../../Components/Button"
+import { ButtonText } from "../../Components/ButtonText"
 
 
 

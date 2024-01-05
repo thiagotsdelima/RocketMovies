@@ -1,15 +1,15 @@
-import { Container, Profile } from "./styles"
-import { Link } from "react-router-dom"
+import { Container, Profile } from "./styles";
+import { Link } from "react-router-dom";
 
-import { useNavigate } from "react-router-dom"
-import { useAuth } from '../../hooks/auth'
+import { useNavigate } from "react-router-dom";
+import { useAuth } from '../../Hooks/auth';
 
-import { api } from "../../services/api"
+import { api } from "../../Services/api";
 
-import { ButtonText } from  "../ButtonText"
-import { Input } from  "../Input"
+import { ButtonText } from  "../ButtonText";
+import { Input } from  "../Input";
 
-import avatarPlaceholder from "../../assets/avatar_placeholder.svg"
+import avatarPlaceholder from "../../Assets/avatar_placeholder.svg"
 
 
 
