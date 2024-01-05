@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom"
 
-import { Home } from "../Pages/Home"
-import { Profile } from "../Pages/Profile"
-import { MoviePreview } from "../Pages/MoviePreview"
-import { CreateMovie } from "../Pages/CreateMovie"
+import { Home } from "../pages/Home"
+import { Profile } from "../pages/Profile"
+import { MoviePreview } from "../pages/MoviePreview"
+import { CreateMovie } from "../pages/CreateMovie"
 
 
 
