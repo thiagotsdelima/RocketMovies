@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import theme from './styles/theme'
 import GlobalStyles from './styles/global'
 import { AuthProvider } from './hooks/auth'
-import { Routes } from './Routes'
+import { Routes } from './routes'
 
 
 
