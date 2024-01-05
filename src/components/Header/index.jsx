@@ -2,7 +2,7 @@ import { Container, Profile } from "./styles";
 import { Link } from "react-router-dom";
 
 import { useNavigate } from "react-router-dom";
-import { useAuth } from '../../Hooks/auth';
+import { useAuth } from '../../hooks/auth';
 
 import { api } from "../../Services/api";
 

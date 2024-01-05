@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import { useAuth } from "../../Hooks/auth"
+import { useAuth } from "../../hooks/auth"
 
 import avatarPlaceholder from "../../Assets/avatar_placeholder.svg"
 import { api } from "../../Services/api"
