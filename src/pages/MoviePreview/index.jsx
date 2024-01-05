@@ -4,18 +4,18 @@ import { useNavigate, useParams } from "react-router-dom"
 import { useAuth } from '../../hooks/auth'
 import { api } from '../../services/api'
 
-import avatarPlaceholder from "../../Assets/avatar_placeholder.svg"
+import avatarPlaceholder from "../../assets/avatar_placeholder.svg"
 
 import { Container, Content } from './styles'
 
 import { FiArrowLeft } from "react-icons/fi"
 import { HiOutlineClock } from "react-icons/hi2"
 
-import { Header } from '../../Components/Header'
-import { ButtonText } from '../../Components/ButtonText'
-import { Button } from '../../Components/Button'
-import { Rating } from '../../Components/Rating'
-import { Tag } from '../../Components/Tag'
+import { Header } from '../../components/Header'
+import { ButtonText } from '../../components/ButtonText'
+import { Button } from '../../components/Button'
+import { Rating } from '../../components/Rating'
+import { Tag } from '../../components/Tag'
 
 
 

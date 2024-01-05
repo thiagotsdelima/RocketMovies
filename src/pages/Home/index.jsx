@@ -6,9 +6,9 @@ import { Container, Title, Content } from "./styles"
 
 import { FiPlus } from "react-icons/fi"
 
-import { Header } from "../../Components/Header"
-import { Button } from "../../Components/Button"
-import { Movie } from "../../Components/Movie"
+import { Header } from "../../components/Header"
+import { Button } from "../../components/Button"
+import { Movie } from "../../components/Movie"
 
 
 

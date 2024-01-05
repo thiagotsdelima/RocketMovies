@@ -5,13 +5,13 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { useAuth } from "../../hooks/auth"
 
-import avatarPlaceholder from "../../Assets/avatar_placeholder.svg"
+import avatarPlaceholder from "../../assets/avatar_placeholder.svg"
 import { api } from "../../services/api"
 
 import { Container, Form, Avatar } from "./styles"
-import { Input } from "../../Components/Input"
-import { Button } from "../../Components/Button"
-import { ButtonText } from "../../Components/ButtonText"
+import { Input } from "../../components/Input"
+import { Button } from "../../components/Button"
+import { ButtonText } from "../../components/ButtonText"
 
 
 

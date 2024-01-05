@@ -7,13 +7,13 @@ import { FiArrowLeft } from "react-icons/fi"
 
 import { Container, Form } from "./styles"
 
-import { Header } from "../../Components/Header"
-import { Input } from "../../Components/Input"
-import { Button } from "../../Components/Button"
-import { ButtonText } from "../../Components/ButtonText"
-import { Textarea } from "../../Components/Textarea"
-import { Section } from "../../Components/Section"
-import { MovieItem } from "../../Components/MovieItem"
+import { Header } from "../../components/Header"
+import { Input } from "../../components/Input"
+import { Button } from "../../components/Button"
+import { ButtonText } from "../../components/ButtonText"
+import { Textarea } from "../../components/Textarea"
+import { Section } from "../../components/Section"
+import { MovieItem } from "../../components/MovieItem"
 
 
 
