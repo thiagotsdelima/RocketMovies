@@ -235,4 +235,3 @@ export function Rating({...rest}) {
   )
 }
 
-// setAttribute('attributeName', 'value') --- Method que adiciona um atributo e seu respectivo valor, à um elemento; são escritos em String

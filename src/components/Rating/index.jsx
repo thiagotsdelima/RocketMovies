@@ -27,4 +27,4 @@ export function Rating({ grade }) {
     </Container>
   )
 }
-  // push() --- Method que adiciona novos itens logo após o último item de um array (são adicionados na sequência dele)
+ 
